@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.container {
+  width: 1208px;
+  margin: auto;
+}
+
+.ordered_title_directions {
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+  padding: 27px 0 0;
+}
+.ordered_title_directions_main:first-child {
+  margin-left: 0;
+}
+.ordered_title_directions_main {
+  margin-right: 27.5px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #414141;
+  margin-left: 24.5px;
+}
+
+.ordered_title_directions_next {
+  margin-left: 27.5px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #8f8f8f;
+}
+
+.card-title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  /* Main/onSurface */
+
+  color: #414141;
+}
+.art {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  /* Main/onSurface */
+
+  color: #414141;
+}
+.instruments {
+  display: flex;
+  align-items: center;
+  margin-top: 22.5px;
+}
+.otziv {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  /* text-decoration-line: underline; */
+
+  /* Main/onSurface */
+
+  color: #414141;
+}
+
+.send {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 18px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Grayscale / Hardest */
+
+  color: #606060;
+  display: flex;
+  align-items: center;
+}
+
+.save {
+  display: flex;
+  align-items: center;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 18px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Grayscale / Hardest */
+
+  color: #606060;
+}
+
+.icon {
+  margin-left: 32px;
+  margin-right: 8px;
+}
